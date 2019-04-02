@@ -1,2 +1,2 @@
 # jobhexagonal
-Esqueleto de arquitetura hexagonal sendo consumida por um job do hangfire com um exemplo de faturamento.
+Esqueleto de arquitetura hexagonal com exemplo de uma rotina de faturamento mensal, sendo consumida por um job do hangfire todo inicio de mês.
