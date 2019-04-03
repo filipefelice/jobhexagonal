@@ -1,0 +1,88 @@
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.deps.json
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.runtimeconfig.json
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.runtimeconfig.dev.json
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.csproj.CoreCompileInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorAssemblyInfo.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorAssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.AssemblyInfoInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.AssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.TagHelpers.input.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.TagHelpers.output.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorCoreGenerate.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorTargetAssemblyInfo.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorTargetAssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.deps.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.runtimeconfig.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.runtimeconfig.dev.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.Views.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.Views.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.csprojAssemblyReference.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.csproj.CoreCompileInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorAssemblyInfo.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorAssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.AssemblyInfoInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.AssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.TagHelpers.input.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.TagHelpers.output.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorCoreGenerate.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorTargetAssemblyInfo.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorTargetAssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.Views.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.csproj.CopyComplete
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.deps.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.runtimeconfig.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.runtimeconfig.dev.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.Views.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\bin\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.Views.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.csprojAssemblyReference.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorAssemblyInfo.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorAssemblyInfo.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.AssemblyInfoInputs.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.AssemblyInfo.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.TagHelpers.input.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.TagHelpers.output.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorCoreGenerate.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorTargetAssemblyInfo.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.RazorTargetAssemblyInfo.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.Views.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Jobs\obj\Debug\netcoreapp2.1\ISEntrega.Core.Jobs.csproj.CopyComplete

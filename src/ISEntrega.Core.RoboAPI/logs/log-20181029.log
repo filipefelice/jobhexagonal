@@ -1,0 +1,90 @@
+2018-10-29 22:41:45.891 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-29 22:41:46.695 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-29 22:41:46.695 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-29 22:41:46.727 -03:00 [Information] Request finished in 37.0601ms 200 
+2018-10-29 22:41:46.948 -03:00 [Information] Request finished in 258.1773ms 404 
+2018-10-29 22:44:24.912 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-29 22:44:26.160 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-29 22:47:15.311 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-29 22:47:15.430 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-29 22:47:19.447 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-29 22:47:19.583 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-29 22:47:28.633 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-29 22:47:28.764 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-29 22:49:58.334 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-29 22:49:59.061 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-29 22:49:59.061 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-29 22:49:59.096 -03:00 [Information] Request finished in 39.2393ms 200 
+2018-10-29 22:49:59.200 -03:00 [Information] Request finished in 146.2959ms 404 
+2018-10-29 22:49:59.734 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-29 22:50:01.091 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-29 23:10:46.700 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-29 23:10:47.729 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-29 23:10:47.729 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-29 23:10:47.764 -03:00 [Information] Request finished in 41.0057ms 200 
+2018-10-29 23:10:47.948 -03:00 [Information] Request finished in 225.3098ms 404 
+2018-10-29 23:13:01.466 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-29 23:13:02.643 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-29 23:16:59.003 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 237468.3913ms
+2018-10-29 23:16:59.007 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ISEntrega.Core.Domain.Faturamento.Faturamento.get_AtendimentosSemana() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Domain\Faturamento\Faturamento.cs:line 26
+   at ISEntrega.Core.Domain.Faturamento.Faturamento.CalculaRateioPonto() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Domain\Faturamento\Faturamento.cs:line 69
+   at ISEntrega.Core.Application.Commands.Faturamento.EmiteFaturamentoMensalUseCase.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\EmiteFaturamentoMensalUseCase.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-29 23:16:59.174 -03:00 [Information] Request finished in 237707.2827ms 500 text/html; charset=utf-8
+2018-10-29 23:28:17.056 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-29 23:28:17.925 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-29 23:28:17.925 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-29 23:28:17.966 -03:00 [Information] Request finished in 48.0739ms 200 
+2018-10-29 23:28:18.129 -03:00 [Information] Request finished in 211.7292ms 404 
+2018-10-29 23:29:46.921 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-29 23:29:48.200 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1705;NU1701;CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+	  <PackageReference Include="Autofac" Version="4.6.0" />
+	  <PackageReference Include="Dapper" Version="1.50.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0-preview1-final" />
+    <PackageReference Include="MongoDB.Driver" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ISEntrega.Core.Application\ISEntrega.Core.Application.csproj" />
+    <ProjectReference Include="..\ISEntrega.Core.Domain\ISEntrega.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DapperDataAccess\" />
+    <Folder Include="EntityFrameworkDataAccess\Proxies\" />
+    <Folder Include="MongoDataAccess\" />
+  </ItemGroup>
+  
+</Project>

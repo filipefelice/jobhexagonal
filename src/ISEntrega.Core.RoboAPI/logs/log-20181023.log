@@ -1,0 +1,227 @@
+2018-10-23 23:26:31.183 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:26:31.818 -03:00 [Fatal] Application startup exception
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ISwaggerProvider (DelegateActivator), Services = [Swashbuckle.AspNetCore.Swagger.ISwaggerProvider], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> Could not find file 'C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.xml'. (See inner exception for details.) ---> System.IO.FileNotFoundException: Could not find file 'C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.xml'.
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.<>c__DisplayClass25_0.<IncludeXmlComments>b__0()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.CreateSwaggerProvider(IServiceProvider serviceProvider)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-10-23 23:26:32.298 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:26:32.298 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:26:32.349 -03:00 [Information] Request finished in 54.5945ms 500 text/html; charset=utf-8
+2018-10-23 23:26:32.362 -03:00 [Information] Request finished in 57.4077ms 500 
+2018-10-23 23:31:00.332 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:31:00.712 -03:00 [Fatal] Application startup exception
+Autofac.Core.DependencyResolutionException: An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = ISwaggerProvider (DelegateActivator), Services = [Swashbuckle.AspNetCore.Swagger.ISwaggerProvider], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> Could not find file 'C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.xml'. (See inner exception for details.) ---> System.IO.FileNotFoundException: Could not find file 'C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.xml'.
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.<>c__DisplayClass25_0.<IncludeXmlComments>b__0()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions.CreateSwaggerProvider(IServiceProvider serviceProvider)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-10-23 23:31:00.907 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:31:00.907 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:31:00.944 -03:00 [Information] Request finished in 40.8745ms 500 text/html; charset=utf-8
+2018-10-23 23:31:00.956 -03:00 [Error] Connection id ""0HLHPB2UE2R4E"", Request id ""0HLHPB2UE2R4E:00000001"": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'FrameResponseStream'.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.FrameResponseStream.ValidateState(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.FrameResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.FrameResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.<ExecuteAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Extensions.RazorViews.BaseView.<ExecuteAsync>d__29.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+2018-10-23 23:31:00.961 -03:00 [Information] Request finished in 58.0497ms 500 
+2018-10-23 23:31:04.048 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:31:04.078 -03:00 [Information] Request finished in 29.5523ms 500 text/html; charset=utf-8
+2018-10-23 23:32:35.062 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:32:35.797 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:32:35.797 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:32:35.827 -03:00 [Information] Request finished in 35.3182ms 200 
+2018-10-23 23:32:35.955 -03:00 [Information] Request finished in 164.2659ms 404 
+2018-10-23 23:32:39.000 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:32:39.000 -03:00 [Information] Request finished in 0.4417ms 404 
+2018-10-23 23:32:55.533 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:32:56.171 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:32:56.171 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:32:56.193 -03:00 [Information] Request finished in 27.7803ms 200 
+2018-10-23 23:32:56.284 -03:00 [Information] Request finished in 118.6123ms 404 
+2018-10-23 23:33:51.009 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:33:51.629 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:33:51.629 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:33:51.651 -03:00 [Information] Request finished in 27.6115ms 200 
+2018-10-23 23:33:51.751 -03:00 [Information] Request finished in 127.9907ms 404 
+2018-10-23 23:34:07.368 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento/ProcessaMensal  
+2018-10-23 23:34:07.369 -03:00 [Information] Request finished in 1.0714ms 404 
+2018-10-23 23:34:16.393 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento/ProcessaMensal  
+2018-10-23 23:34:16.394 -03:00 [Information] Request finished in 0.3369ms 404 
+2018-10-23 23:34:20.688 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-23 23:34:21.128 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-23 23:37:14.331 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:37:14.955 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:37:15.013 -03:00 [Information] Request finished in 63.106ms 404 
+2018-10-23 23:37:20.377 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-23 23:37:20.710 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-23 23:37:20.727 -03:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-10-23 23:37:20.731 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 314.7305ms
+2018-10-23 23:37:20.733 -03:00 [Information] Request finished in 357.2386ms 200 
+2018-10-23 23:39:22.700 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-23 23:39:22.703 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-23 23:39:22.704 -03:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-10-23 23:39:22.704 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 3.4311ms
+2018-10-23 23:39:22.704 -03:00 [Information] Request finished in 4.0314ms 200 
+2018-10-23 23:39:37.794 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:39:37.794 -03:00 [Information] Request finished in 0.2354ms 404 
+2018-10-23 23:39:37.797 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:39:37.797 -03:00 [Information] Request finished in 0.1756ms 404 
+2018-10-23 23:40:00.470 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:40:01.044 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:40:01.044 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:40:01.067 -03:00 [Information] Request finished in 27.6761ms 200 
+2018-10-23 23:40:01.150 -03:00 [Information] Request finished in 111.2659ms 404 
+2018-10-23 23:40:02.679 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-23 23:40:03.070 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-23 23:40:13.195 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-23 23:40:13.201 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 10467.9223ms
+2018-10-23 23:40:13.202 -03:00 [Information] Request finished in 10523.8913ms 400 text/plain; charset=utf-8
+2018-10-23 23:43:52.508 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:43:53.099 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:43:53.099 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:43:53.120 -03:00 [Information] Request finished in 27.8172ms 200 
+2018-10-23 23:43:53.214 -03:00 [Information] Request finished in 122.4845ms 404 
+2018-10-23 23:43:54.060 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/help  
+2018-10-23 23:43:54.061 -03:00 [Information] Request finished in 0.5252ms 404 
+2018-10-23 23:43:56.317 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/help  
+2018-10-23 23:43:56.317 -03:00 [Information] Request finished in 0.527ms 404 
+2018-10-23 23:43:58.200 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/help  
+2018-10-23 23:43:58.200 -03:00 [Information] Request finished in 0.6339ms 404 
+2018-10-23 23:45:58.315 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:45:59.033 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-23 23:45:59.033 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-23 23:45:59.056 -03:00 [Information] Request finished in 28.8958ms 200 
+2018-10-23 23:45:59.155 -03:00 [Information] Request finished in 128.1991ms 404 
+2018-10-23 23:45:59.860 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger  
+2018-10-23 23:45:59.862 -03:00 [Information] Request finished in 2.072ms 301 
+2018-10-23 23:45:59.867 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/  
+2018-10-23 23:45:59.873 -03:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.879 -03:00 [Information] Request finished in 11.7777ms 200 text/html
+2018-10-23 23:45:59.891 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/jquery.wiggle.min.js  
+2018-10-23 23:45:59.892 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/object-assign-pollyfill.js  
+2018-10-23 23:45:59.892 -03:00 [Information] Sending file. Request path: '"/lib/jquery.wiggle.min.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.892 -03:00 [Information] Sending file. Request path: '"/lib/object-assign-pollyfill.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.892 -03:00 [Information] Request finished in 0.6342ms 200 application/javascript
+2018-10-23 23:45:59.898 -03:00 [Information] Request finished in 0.2582ms 200 application/javascript
+2018-10-23 23:45:59.901 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/css/typography.css  
+2018-10-23 23:45:59.901 -03:00 [Information] Sending file. Request path: '"/css/typography.css"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.901 -03:00 [Information] Request finished in 0.2735ms 200 text/css
+2018-10-23 23:45:59.907 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/jquery.ba-bbq.min.js  
+2018-10-23 23:45:59.908 -03:00 [Information] Sending file. Request path: '"/lib/jquery.ba-bbq.min.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.908 -03:00 [Information] Request finished in 2.1401ms 200 application/javascript
+2018-10-23 23:45:59.913 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/jquery.slideto.min.js  
+2018-10-23 23:45:59.913 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/handlebars-4.0.5.js  
+2018-10-23 23:45:59.914 -03:00 [Information] Sending file. Request path: '"/lib/jquery.slideto.min.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.914 -03:00 [Information] Sending file. Request path: '"/lib/handlebars-4.0.5.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.914 -03:00 [Information] Request finished in 0.4357ms 200 application/javascript
+2018-10-23 23:45:59.921 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/css/screen.css  
+2018-10-23 23:45:59.922 -03:00 [Information] Sending file. Request path: '"/css/screen.css"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.945 -03:00 [Information] Request finished in 23.8467ms 200 text/css
+2018-10-23 23:45:59.945 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/css/print.css  
+2018-10-23 23:45:59.945 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/swagger-ui.min.js  
+2018-10-23 23:45:59.946 -03:00 [Information] Sending file. Request path: '"/swagger-ui.min.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.946 -03:00 [Information] Sending file. Request path: '"/css/print.css"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.949 -03:00 [Information] Request finished in 4.0743ms 200 text/css
+2018-10-23 23:45:59.958 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/jquery-1.8.0.min.js  
+2018-10-23 23:45:59.958 -03:00 [Information] Sending file. Request path: '"/lib/jquery-1.8.0.min.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.964 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/backbone-min.js  
+2018-10-23 23:45:59.964 -03:00 [Information] Sending file. Request path: '"/lib/backbone-min.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.964 -03:00 [Information] Request finished in 0.3585ms 200 application/javascript
+2018-10-23 23:45:59.970 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/lodash.min.js  
+2018-10-23 23:45:59.970 -03:00 [Information] Sending file. Request path: '"/lib/lodash.min.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.972 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/highlight.9.1.0.pack_extended.js  
+2018-10-23 23:45:59.972 -03:00 [Information] Sending file. Request path: '"/lib/highlight.9.1.0.pack_extended.js"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.972 -03:00 [Information] Request finished in 58.5581ms 200 application/javascript
+2018-10-23 23:45:59.972 -03:00 [Information] Request finished in 0.4056ms 200 application/javascript
+2018-10-23 23:45:59.975 -03:00 [Information] Request finished in 2.2437ms 200 application/javascript
+2018-10-23 23:45:59.981 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/css/reset.css  
+2018-10-23 23:45:59.981 -03:00 [Information] Sending file. Request path: '"/css/reset.css"'. Physical path: '"N/A"'
+2018-10-23 23:45:59.982 -03:00 [Information] Request finished in 1.2753ms 200 text/css
+2018-10-23 23:45:59.982 -03:00 [Information] Request finished in 24.7395ms 200 application/javascript
+2018-10-23 23:46:00.002 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/marked.js  
+2018-10-23 23:46:00.003 -03:00 [Information] Sending file. Request path: '"/lib/marked.js"'. Physical path: '"N/A"'
+2018-10-23 23:46:00.003 -03:00 [Information] Request finished in 0.7768ms 200 application/javascript
+2018-10-23 23:46:00.007 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/jsoneditor.min.js  
+2018-10-23 23:46:00.008 -03:00 [Information] Sending file. Request path: '"/lib/jsoneditor.min.js"'. Physical path: '"N/A"'
+2018-10-23 23:46:00.044 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/images/logo_small.png  
+2018-10-23 23:46:00.044 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/swagger-oauth.js  
+2018-10-23 23:46:00.045 -03:00 [Information] Sending file. Request path: '"/lib/swagger-oauth.js"'. Physical path: '"N/A"'
+2018-10-23 23:46:00.045 -03:00 [Information] Sending file. Request path: '"/images/logo_small.png"'. Physical path: '"N/A"'
+2018-10-23 23:46:00.045 -03:00 [Information] Request finished in 0.7723ms 200 application/javascript
+2018-10-23 23:46:00.045 -03:00 [Information] Request finished in 0.8149ms 200 image/png
+2018-10-23 23:46:00.059 -03:00 [Information] Request finished in 51.7928ms 200 application/javascript
+2018-10-23 23:46:00.066 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/lib/highlight.9.1.0.pack.js  
+2018-10-23 23:46:00.066 -03:00 [Information] Sending file. Request path: '"/lib/highlight.9.1.0.pack.js"'. Physical path: '"N/A"'
+2018-10-23 23:46:00.066 -03:00 [Information] Request finished in 0.3735ms 200 application/javascript
+2018-10-23 23:46:00.074 -03:00 [Information] Request finished in 129.0882ms 200 application/javascript
+2018-10-23 23:46:00.178 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/v1/swagger.json  
+2018-10-23 23:46:00.275 -03:00 [Information] Request finished in 97.0213ms 200 application/json
+2018-10-23 23:46:01.645 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/swagger/images/throbber.gif  
+2018-10-23 23:46:01.645 -03:00 [Information] Sending file. Request path: '"/images/throbber.gif"'. Physical path: '"N/A"'
+2018-10-23 23:46:01.645 -03:00 [Information] Request finished in 0.7624ms 200 image/gif
+2018-10-23 23:46:16.248 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Faturamento  
+2018-10-23 23:46:16.642 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-23 23:46:19.391 -03:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-10-23 23:46:19.394 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 3094.9189ms
+2018-10-23 23:46:19.396 -03:00 [Information] Request finished in 3147.7505ms 200 
+2018-10-23 23:49:16.176 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-23 23:49:16.603 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-23 23:49:16.987 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-23 23:49:17.005 -03:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-10-23 23:49:17.008 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 306.1157ms
+2018-10-23 23:49:17.015 -03:00 [Information] Request finished in 416.3973ms 200 

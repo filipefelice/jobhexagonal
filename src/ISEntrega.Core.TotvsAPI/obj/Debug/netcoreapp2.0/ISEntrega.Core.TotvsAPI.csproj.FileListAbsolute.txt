@@ -1,0 +1,63 @@
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.WebApi.xml
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.deps.json
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.json
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.dev.json
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csprojAssemblyReference.cache
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CoreCompileInputs.cache
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfoInputs.cache
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfo.cs
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CopyComplete
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.deps.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.dev.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csprojAssemblyReference.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CoreCompileInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfoInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CopyComplete
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.xml
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.deps.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.dev.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.xml
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csprojAssemblyReference.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfoInputs.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfo.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CopyComplete
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb

@@ -1,0 +1,1760 @@
+2018-10-25 20:04:55.440 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:04:56.346 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:04:56.346 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:04:56.388 -03:00 [Information] Request finished in 45.6569ms 200 
+2018-10-25 20:04:56.508 -03:00 [Information] Request finished in 168.1496ms 404 
+2018-10-25 20:06:34.275 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:06:35.413 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:07:29.395 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:07:29.493 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:07:34.455 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:07:34.515 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:07:39.769 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:07:39.837 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:07:44.728 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:07:44.791 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:07:53.858 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:07:53.926 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:09:21.058 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 96326.9278ms
+2018-10-25 20:09:21.061 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Comissao'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:09:21.259 -03:00 [Information] Request finished in 96531.0695ms 500 text/html; charset=utf-8
+2018-10-25 20:09:21.576 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 167237.8558ms
+2018-10-25 20:09:21.576 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Comissao'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:09:21.648 -03:00 [Information] Request finished in 167373.1394ms 500 text/html; charset=utf-8
+2018-10-25 20:09:22.592 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 102822.8274ms
+2018-10-25 20:09:22.593 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Comissao'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:09:22.670 -03:00 [Information] Request finished in 102901.0763ms 500 text/html; charset=utf-8
+2018-10-25 20:09:23.328 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 89469.6442ms
+2018-10-25 20:09:23.328 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Comissao'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:09:23.417 -03:00 [Information] Request finished in 89558.4678ms 500 text/html; charset=utf-8
+2018-10-25 20:09:24.832 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 110376.4105ms
+2018-10-25 20:09:24.832 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Comissao'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:09:24.915 -03:00 [Information] Request finished in 110459.7036ms 500 text/html; charset=utf-8
+2018-10-25 20:09:26.346 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 116949.795ms
+2018-10-25 20:09:26.346 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Comissao'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:09:26.425 -03:00 [Information] Request finished in 117029.9168ms 500 text/html; charset=utf-8
+2018-10-25 20:14:59.897 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:15:00.644 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:15:00.644 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:15:00.667 -03:00 [Information] Request finished in 28.8208ms 200 
+2018-10-25 20:15:00.769 -03:00 [Information] Request finished in 131.4359ms 404 
+2018-10-25 20:15:01.256 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:15:02.385 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:15:19.364 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 18057.6668ms
+2018-10-25 20:15:19.366 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Comissao'. The expected type was 'System.Nullable`1[System.Decimal]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Decimal]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:15:19.542 -03:00 [Information] Request finished in 18286.4829ms 500 text/html; charset=utf-8
+2018-10-25 20:16:25.526 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:16:26.175 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:16:26.175 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:16:26.175 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:16:26.203 -03:00 [Information] Request finished in 31.9201ms 200 
+2018-10-25 20:16:26.295 -03:00 [Information] Request finished in 125.6042ms 404 
+2018-10-25 20:16:27.559 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:16:44.462 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 18087.2831ms
+2018-10-25 20:16:44.464 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.Latitude'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:16:44.633 -03:00 [Information] Request finished in 18463.7185ms 500 text/html; charset=utf-8
+2018-10-25 20:20:21.927 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:20:22.660 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:20:22.660 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:20:22.682 -03:00 [Information] Request finished in 27.3592ms 200 
+2018-10-25 20:20:22.858 -03:00 [Information] Request finished in 203.748ms 404 
+2018-10-25 20:20:25.432 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:20:26.500 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:20:42.948 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 17456.7749ms
+2018-10-25 20:20:42.950 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.ValorFornecimentoMaoObra'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:20:43.105 -03:00 [Information] Request finished in 17673.0649ms 500 text/html; charset=utf-8
+2018-10-25 20:21:27.094 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:21:27.715 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:21:27.715 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:21:27.737 -03:00 [Information] Request finished in 27.9049ms 200 
+2018-10-25 20:21:27.828 -03:00 [Information] Request finished in 118.5603ms 404 
+2018-10-25 20:21:34.815 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:21:35.892 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:21:47.669 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 12800.259ms
+2018-10-25 20:21:47.671 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.INSS'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:21:47.856 -03:00 [Information] Request finished in 13041.9739ms 500 text/html; charset=utf-8
+2018-10-25 20:22:57.592 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:22:58.258 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:22:58.258 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:22:58.258 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:22:58.280 -03:00 [Information] Request finished in 27.7133ms 200 
+2018-10-25 20:22:58.400 -03:00 [Information] Request finished in 147.815ms 404 
+2018-10-25 20:22:59.598 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:23:12.653 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 14191.1436ms
+2018-10-25 20:23:12.655 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Matriz.ValorFornecimentoMaoObra'. The expected type was 'System.Nullable`1[System.Decimal]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Decimal]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:23:12.823 -03:00 [Information] Request finished in 14571.1612ms 500 text/html; charset=utf-8
+2018-10-25 20:23:53.052 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:23:53.950 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:23:53.950 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:23:53.992 -03:00 [Information] Request finished in 50.3841ms 200 
+2018-10-25 20:23:54.097 -03:00 [Information] Request finished in 156.0115ms 404 
+2018-10-25 20:23:54.409 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:23:55.583 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:24:46.133 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 51658.1059ms
+2018-10-25 20:24:46.136 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Ponto.Latitude'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaPontosPorMatriz>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:24:46.303 -03:00 [Information] Request finished in 51893.9714ms 500 text/html; charset=utf-8
+2018-10-25 20:26:06.633 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:26:07.317 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:26:07.317 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:26:07.339 -03:00 [Information] Request finished in 27.3439ms 200 
+2018-10-25 20:26:07.454 -03:00 [Information] Request finished in 143.053ms 404 
+2018-10-25 20:26:12.478 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:26:13.518 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:28:04.687 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 112154.3605ms
+2018-10-25 20:28:04.689 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 34
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:28:04.801 -03:00 [Information] Request finished in 112322.921ms 500 text/html; charset=utf-8
+2018-10-25 20:31:21.858 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:31:22.683 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:31:22.683 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:31:22.712 -03:00 [Information] Request finished in 33.872ms 200 
+2018-10-25 20:31:22.835 -03:00 [Information] Request finished in 157.3232ms 404 
+2018-10-25 20:31:25.255 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:31:26.356 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:31:45.658 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 20336.9131ms
+2018-10-25 20:31:45.660 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'InformacaoCobranca.PercentualJuros'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<FirstOrDefault_>d__165`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ObtemInformacaoCobranca>d__5.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:31:45.827 -03:00 [Information] Request finished in 20571.9918ms 500 text/html; charset=utf-8
+2018-10-25 20:32:27.786 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:32:28.211 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:32:29.203 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:32:45.754 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:32:45.819 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:32:48.558 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 20260.6933ms
+2018-10-25 20:32:48.560 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'InformacaoCobranca.PercentualJuros'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<FirstOrDefault_>d__165`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ObtemInformacaoCobranca>d__5.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:32:48.693 -03:00 [Information] Request finished in 20486.7185ms 500 text/html; charset=utf-8
+2018-10-25 20:33:09.454 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 23699.7122ms
+2018-10-25 20:33:09.454 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'InformacaoCobranca.PercentualJuros'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<FirstOrDefault_>d__165`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ObtemInformacaoCobranca>d__5.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:33:09.527 -03:00 [Information] Request finished in 23773.2321ms 500 text/html; charset=utf-8
+2018-10-25 20:33:47.814 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:33:47.874 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:34:06.888 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 19073.9862ms
+2018-10-25 20:34:06.889 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: An exception occurred while reading a database value for property 'InformacaoCobranca.PercentualJuros'. The expected type was 'System.Nullable`1[System.Single]' but the actual value was of type 'System.Double'. ---> System.InvalidCastException: Unable to cast object of type 'System.Double' to type 'System.Nullable`1[System.Single]'.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , ValueBuffer , DbContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<FirstOrDefault_>d__165`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ObtemInformacaoCobranca>d__5.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-25 20:34:06.968 -03:00 [Information] Request finished in 19153.9524ms 500 text/html; charset=utf-8
+2018-10-25 20:35:18.301 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 20:35:18.970 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 20:35:18.982 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 20:35:19.007 -03:00 [Information] Request finished in 25.1869ms 200 
+2018-10-25 20:35:19.130 -03:00 [Information] Request finished in 168.1823ms 404 
+2018-10-25 20:35:21.518 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:35:21.984 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:35:22.683 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:35:22.683 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:35:52.664 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-25 20:35:52.675 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 30687.457ms
+2018-10-25 20:35:52.678 -03:00 [Information] Request finished in 30693.8878ms 400 application/json; charset=utf-8
+2018-10-25 20:36:14.290 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:36:14.360 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:36:24.884 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:36:24.945 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:37:22.178 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-25 20:37:22.179 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 120603.8705ms
+2018-10-25 20:37:22.179 -03:00 [Information] Request finished in 120660.9419ms 400 text/plain; charset=utf-8
+2018-10-25 20:37:23.934 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-25 20:37:23.935 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 69644.0324ms
+2018-10-25 20:37:23.935 -03:00 [Information] Request finished in 69644.5738ms 400 text/plain; charset=utf-8
+2018-10-25 20:37:46.499 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 20:37:46.574 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 20:37:57.007 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-25 20:37:57.008 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 92122.9109ms
+2018-10-25 20:37:57.008 -03:00 [Information] Request finished in 92123.4956ms 400 text/plain; charset=utf-8
+2018-10-25 20:38:16.543 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-25 20:38:16.543 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 30043.8867ms
+2018-10-25 20:38:16.544 -03:00 [Information] Request finished in 30044.4621ms 400 application/json; charset=utf-8
+2018-10-25 21:11:21.436 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-25 21:11:22.193 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-25 21:11:22.193 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-25 21:11:22.193 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-25 21:11:22.222 -03:00 [Information] Request finished in 34.9861ms 200 
+2018-10-25 21:11:22.326 -03:00 [Information] Request finished in 138.6612ms 404 
+2018-10-25 21:11:23.891 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-25 21:11:47.055 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-25 21:11:47.063 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 24642.4012ms
+2018-10-25 21:11:47.067 -03:00 [Information] Request finished in 24880.63ms 400 text/plain; charset=utf-8

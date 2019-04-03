@@ -1,0 +1,63 @@
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.WebApi.xml
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.deps.json
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.json
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.dev.json
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csprojAssemblyReference.cache
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CoreCompileInputs.cache
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfoInputs.cache
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfo.cs
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CopyComplete
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Fonte\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csprojAssemblyReference.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CoreCompileInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfoInputs.cache
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfo.cs
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.deps.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.dev.json
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CopyComplete
+C:\Fonte\ISEntrega\ISEntrega.Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.xml
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.deps.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.dev.json
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.xml
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csprojAssemblyReference.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfoInputs.cache
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfo.cs
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CopyComplete
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb

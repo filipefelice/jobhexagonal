@@ -1,0 +1,231 @@
+2018-10-21 19:45:53.625 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-21 19:45:54.309 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-21 19:45:54.309 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-21 19:45:54.331 -03:00 [Information] Request finished in 27.4692ms 200 
+2018-10-21 19:45:54.461 -03:00 [Information] Request finished in 157.8961ms 404 
+2018-10-21 19:46:09.866 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-21 19:46:09.867 -03:00 [Information] Request finished in 0.8738ms 404 
+2018-10-21 19:46:14.358 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-21 19:46:14.358 -03:00 [Information] Request finished in 0.2429ms 404 
+2018-10-21 19:46:40.874 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts  
+2018-10-21 19:46:40.875 -03:00 [Information] Request finished in 0.4588ms 404 
+2018-10-21 19:46:44.034 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api  
+2018-10-21 19:46:44.036 -03:00 [Information] Request finished in 1.1609ms 404 
+2018-10-21 19:46:46.755 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/  
+2018-10-21 19:46:46.755 -03:00 [Information] Request finished in 0.2093ms 404 
+2018-10-21 19:47:15.564 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/close  
+2018-10-21 19:47:16.055 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:47:16.066 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 409.1909ms
+2018-10-21 19:47:16.067 -03:00 [Information] Request finished in 503.364ms 400 application/json; charset=utf-8
+2018-10-21 19:47:41.154 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/getcustomer  
+2018-10-21 19:47:41.169 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:47:41.171 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 16.4184ms
+2018-10-21 19:47:41.171 -03:00 [Information] Request finished in 17.4568ms 400 application/json; charset=utf-8
+2018-10-21 19:47:44.902 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/getcustomers  
+2018-10-21 19:47:44.910 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:47:44.911 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 8.7724ms
+2018-10-21 19:47:44.911 -03:00 [Information] Request finished in 9.227ms 400 application/json; charset=utf-8
+2018-10-21 19:47:49.036 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/getcustomersaaa  
+2018-10-21 19:47:49.046 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:47:49.046 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 9.3889ms
+2018-10-21 19:47:49.046 -03:00 [Information] Request finished in 9.7345ms 400 application/json; charset=utf-8
+2018-10-21 19:47:51.717 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/getcustomers  
+2018-10-21 19:47:51.726 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:47:51.727 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 8.9012ms
+2018-10-21 19:47:51.727 -03:00 [Information] Request finished in 9.8111ms 400 application/json; charset=utf-8
+2018-10-21 19:48:06.592 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/getcustomer?customerid=4234234  
+2018-10-21 19:48:06.603 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:48:06.603 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 10.7405ms
+2018-10-21 19:48:06.603 -03:00 [Information] Request finished in 11.5047ms 400 application/json; charset=utf-8
+2018-10-21 19:48:15.625 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/GetCustomer?customerid=4234234  
+2018-10-21 19:48:15.633 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:48:15.635 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 9.4883ms
+2018-10-21 19:48:15.635 -03:00 [Information] Request finished in 10.0255ms 400 application/json; charset=utf-8
+2018-10-21 19:48:26.522 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/GetCustomer?customerid=dsad-asd232-sadasd-2313  
+2018-10-21 19:48:26.531 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:48:26.532 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 9.1222ms
+2018-10-21 19:48:26.532 -03:00 [Information] Request finished in 9.5108ms 400 application/json; charset=utf-8
+2018-10-21 19:49:00.966 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/Get?customerid=dsad-asd232-sadasd-2313  
+2018-10-21 19:49:00.975 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:49:00.975 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 7.9832ms
+2018-10-21 19:49:00.975 -03:00 [Information] Request finished in 8.3742ms 400 application/json; charset=utf-8
+2018-10-21 19:49:06.075 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/Get?accountId=dsad-asd232-sadasd-2313  
+2018-10-21 19:49:06.082 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:49:06.083 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 7.4697ms
+2018-10-21 19:49:06.083 -03:00 [Information] Request finished in 7.8439ms 400 application/json; charset=utf-8
+2018-10-21 19:49:27.185 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/Get?accountId=2323-21313  
+2018-10-21 19:49:27.191 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:49:27.191 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 5.5208ms
+2018-10-21 19:49:27.191 -03:00 [Information] Request finished in 6.0953ms 400 application/json; charset=utf-8
+2018-10-21 19:49:42.752 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/Accounts/Get?accountId=2323-21313  
+2018-10-21 19:49:42.752 -03:00 [Information] Request finished in 0.2168ms 404 
+2018-10-21 19:49:46.507 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/Get?accountId=2323-21313  
+2018-10-21 19:49:46.516 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:49:46.516 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 9.1192ms
+2018-10-21 19:49:46.516 -03:00 [Information] Request finished in 9.5835ms 400 application/json; charset=utf-8
+2018-10-21 19:49:49.636 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Account  
+2018-10-21 19:49:49.636 -03:00 [Information] Request finished in 0.2008ms 404 
+2018-10-21 19:49:51.723 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts  
+2018-10-21 19:49:51.723 -03:00 [Information] Request finished in 0.2348ms 404 
+2018-10-21 19:50:00.791 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/Get?accountId=2323-21313  
+2018-10-21 19:50:00.799 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:50:00.799 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 7.6883ms
+2018-10-21 19:50:00.799 -03:00 [Information] Request finished in 8.0601ms 400 application/json; charset=utf-8
+2018-10-21 19:50:24.337 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/GetAccount?accountId=2323-21313  
+2018-10-21 19:50:24.347 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:50:24.347 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 9.3186ms
+2018-10-21 19:50:24.347 -03:00 [Information] Request finished in 9.6751ms 400 application/json; charset=utf-8
+2018-10-21 19:50:32.642 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/GetAccount?accountId=2323-21313  
+2018-10-21 19:50:32.664 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:50:32.664 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 22.4056ms
+2018-10-21 19:50:32.664 -03:00 [Information] Request finished in 22.7411ms 400 application/json; charset=utf-8
+2018-10-21 19:50:41.011 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/GetAccount?accountId=  
+2018-10-21 19:50:41.020 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:50:41.020 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 8.8393ms
+2018-10-21 19:50:41.021 -03:00 [Information] Request finished in 9.3321ms 400 application/json; charset=utf-8
+2018-10-21 19:50:55.541 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/AccountsController/GetAccount?accountId=  
+2018-10-21 19:50:55.541 -03:00 [Information] Request finished in 0.2066ms 404 
+2018-10-21 19:51:04.206 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/GetAccount?accountId=  
+2018-10-21 19:51:54.691 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:51:54.691 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 50484.802ms
+2018-10-21 19:51:54.703 -03:00 [Information] Request finished in 50497.8083ms 400 application/json; charset=utf-8
+2018-10-21 19:52:01.178 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/GetAccount?accountId=adad  
+2018-10-21 19:52:02.718 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:52:02.718 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 1539.59ms
+2018-10-21 19:52:02.718 -03:00 [Information] Request finished in 1539.972ms 400 application/json; charset=utf-8
+2018-10-21 19:53:18.271 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/accountId=adad  
+2018-10-21 19:53:19.662 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:53:19.663 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 1391.1815ms
+2018-10-21 19:53:19.663 -03:00 [Information] Request finished in 1391.6728ms 400 application/json; charset=utf-8
+2018-10-21 19:53:41.455 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/accountId=  
+2018-10-21 19:53:42.526 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:53:42.526 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 1071.6505ms
+2018-10-21 19:53:42.527 -03:00 [Information] Request finished in 1072.0796ms 400 application/json; charset=utf-8
+2018-10-21 19:55:49.243 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts  
+2018-10-21 19:55:49.244 -03:00 [Information] Request finished in 0.8107ms 404 
+2018-10-21 19:55:56.202 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/1  
+2018-10-21 19:55:57.421 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-21 19:55:57.421 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 1218.2906ms
+2018-10-21 19:55:57.421 -03:00 [Information] Request finished in 1219.1308ms 400 application/json; charset=utf-8
+2018-10-21 19:57:18.308 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-21 19:57:19.010 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-21 19:57:19.010 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-21 19:57:19.032 -03:00 [Information] Request finished in 27.3049ms 200 
+2018-10-21 19:57:19.127 -03:00 [Information] Request finished in 122.5779ms 404 
+2018-10-21 19:57:23.667 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/Accounts/1  
+2018-10-21 19:57:25.462 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-21 19:57:33.099 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.Get (ISEntrega.Core.RoboAPI)" in 9379.7842ms
+2018-10-21 19:57:33.101 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "ISEntrega.CoreDB" requested by the login. The login failed.
+Login failed for user 'DESKTOP-5ELNRGA\filip'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.<OpenDbConnectionAsync>d__48.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.<OpenAsync>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<FirstOrDefault_>d__165`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.MongoDataAccess.Queries.AccountsQueries.<GetAccount>d__3.MoveNext() in C:\Fonte\ISEntrega.Core\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\Queries\AccountsQueries.cs:line 23
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.GetAccountDetails.AccountsController.<Get>d__2.MoveNext() in C:\Fonte\ISEntrega.Core\ISEntrega.Core.RoboAPI\UseCases\GetAccountDetails\AccountsController.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:94302577-f725-4e0d-a128-25959220590c
+Error Number:4060,State:1,Class:11
+2018-10-21 19:57:33.400 -03:00 [Information] Request finished in 9733.1242ms 500 text/html; charset=utf-8

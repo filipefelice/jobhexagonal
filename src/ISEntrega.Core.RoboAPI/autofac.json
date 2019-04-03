@@ -1,0 +1,21 @@
+﻿{
+  "defaultAssembly": "ISEntrega.Core.Infrastructure",
+  "modules": [
+    {
+      "type": "ISEntrega.Core.Infrastructure.Modules.WebApiModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "ISEntrega.Core.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "ISEntrega.Core.Infrastructure.Modules.InfrastructureModule",
+      "properties": {
+        "SQLServerConnectionString": "Data Source=ishomolog.eastus.cloudapp.azure.com;Initial Catalog=SistemaISLogistica;User ID=usrdev;Password=usrdev;"
+      }
+    }
+  ]
+}

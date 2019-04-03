@@ -1,0 +1,390 @@
+2018-10-24 22:09:01.178 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:09:02.518 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:09:02.522 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-24 22:09:02.524 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-24 22:09:02.630 -03:00 [Information] Request finished in 107.1567ms 200 
+2018-10-24 22:09:02.858 -03:00 [Information] Request finished in 333.7663ms 404 
+2018-10-24 22:09:03.577 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:09:03.695 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:09:03.704 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 681.126ms
+2018-10-24 22:09:03.706 -03:00 [Information] Request finished in 1193.6489ms 400 application/json; charset=utf-8
+2018-10-24 22:09:33.277 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:09:33.339 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:09:33.405 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:09:33.406 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 127.4009ms
+2018-10-24 22:09:33.406 -03:00 [Information] Request finished in 128.7843ms 400 application/json; charset=utf-8
+2018-10-24 22:10:14.123 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:10:14.222 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:10:14.285 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:10:14.285 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 161.7933ms
+2018-10-24 22:10:14.285 -03:00 [Information] Request finished in 162.4417ms 400 application/json; charset=utf-8
+2018-10-24 22:12:24.100 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:12:25.094 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-24 22:12:25.094 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-24 22:12:25.117 -03:00 [Information] Request finished in 28.7868ms 200 
+2018-10-24 22:12:25.283 -03:00 [Information] Request finished in 195.1816ms 404 
+2018-10-24 22:12:41.046 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:12:41.567 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:12:44.070 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:12:44.078 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 2963.925ms
+2018-10-24 22:12:44.079 -03:00 [Information] Request finished in 3033.2026ms 400 application/json; charset=utf-8
+2018-10-24 22:13:41.210 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:13:41.694 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:13:42.153 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:13:42.163 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:13:42.173 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 388.7843ms
+2018-10-24 22:13:42.175 -03:00 [Information] Request finished in 486.1675ms 400 application/json; charset=utf-8
+2018-10-24 22:14:30.968 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:14:31.394 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:14:31.833 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:14:31.843 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:14:31.853 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 373.4042ms
+2018-10-24 22:14:31.854 -03:00 [Information] Request finished in 464.4684ms 400 application/json; charset=utf-8
+2018-10-24 22:16:05.683 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:16:05.740 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:16:05.741 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:16:05.741 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 57.4701ms
+2018-10-24 22:16:05.741 -03:00 [Information] Request finished in 58.301ms 400 application/json; charset=utf-8
+2018-10-24 22:19:02.282 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:19:02.807 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:19:03.260 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:19:03.270 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:19:03.281 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 381.1686ms
+2018-10-24 22:19:03.282 -03:00 [Information] Request finished in 480.4478ms 400 application/json; charset=utf-8
+2018-10-24 22:20:38.450 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-24 22:20:38.460 -03:00 [Information] Request finished in 10.0976ms 404 
+2018-10-24 22:20:42.091 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:20:42.148 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:20:42.150 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:20:42.150 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 58.7304ms
+2018-10-24 22:20:42.150 -03:00 [Information] Request finished in 59.3629ms 400 text/plain; charset=utf-8
+2018-10-24 22:29:02.545 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:29:03.188 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-24 22:29:03.188 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-24 22:29:03.213 -03:00 [Information] Request finished in 30.8622ms 200 
+2018-10-24 22:29:03.311 -03:00 [Information] Request finished in 129.4684ms 404 
+2018-10-24 22:29:03.858 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:29:04.353 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:29:06.126 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:29:06.133 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 2222.7577ms
+2018-10-24 22:29:06.134 -03:00 [Information] Request finished in 2276.8436ms 400 text/plain; charset=utf-8
+2018-10-24 22:29:35.107 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:29:35.168 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:29:36.666 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:29:36.668 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 1560.4032ms
+2018-10-24 22:29:36.669 -03:00 [Information] Request finished in 1561.2945ms 400 application/json; charset=utf-8
+2018-10-24 22:30:36.139 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:30:36.221 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:30:36.281 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:30:36.282 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 141.7816ms
+2018-10-24 22:30:36.282 -03:00 [Information] Request finished in 142.4611ms 400 application/json; charset=utf-8
+2018-10-24 22:31:32.261 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:31:32.704 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:31:33.201 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:31:33.211 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:31:33.221 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 429.797ms
+2018-10-24 22:31:33.223 -03:00 [Information] Request finished in 523.9099ms 400 application/json; charset=utf-8
+2018-10-24 22:33:46.506 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-24 22:33:46.518 -03:00 [Information] Request finished in 12.3537ms 404 
+2018-10-24 22:34:20.493 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:34:20.942 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:34:21.377 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:34:21.386 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:34:21.395 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 367.6861ms
+2018-10-24 22:34:21.397 -03:00 [Information] Request finished in 458.8499ms 400 application/json; charset=utf-8
+2018-10-24 22:34:54.993 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:34:55.066 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:34:55.067 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:34:55.067 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 73.0454ms
+2018-10-24 22:34:55.068 -03:00 [Information] Request finished in 74.4186ms 400 application/json; charset=utf-8
+2018-10-24 22:35:51.889 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:35:51.960 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:35:51.961 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:35:51.961 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 71.8ms
+2018-10-24 22:35:51.961 -03:00 [Information] Request finished in 72.2045ms 400 application/json; charset=utf-8
+2018-10-24 22:37:48.637 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:37:48.703 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:37:48.704 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:37:48.704 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 67.078ms
+2018-10-24 22:37:48.704 -03:00 [Information] Request finished in 67.5761ms 400 application/json; charset=utf-8
+2018-10-24 22:37:51.280 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:37:51.337 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:37:51.338 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:37:51.338 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 58.3437ms
+2018-10-24 22:37:51.338 -03:00 [Information] Request finished in 58.6611ms 400 text/plain; charset=utf-8
+2018-10-24 22:37:55.695 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:37:55.756 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:37:55.756 -03:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2018-10-24 22:37:55.756 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 60.7814ms
+2018-10-24 22:37:55.756 -03:00 [Information] Request finished in 61.1868ms 400 text/plain; charset=utf-8
+2018-10-24 22:38:17.114 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:38:17.753 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-24 22:38:17.753 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-24 22:38:17.775 -03:00 [Information] Request finished in 28.6304ms 200 
+2018-10-24 22:38:17.875 -03:00 [Information] Request finished in 127.2282ms 404 
+2018-10-24 22:38:29.273 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:38:29.729 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:38:55.361 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 26028.988ms
+2018-10-24 22:38:55.363 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The entity type 'Cliente' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-24 22:38:55.478 -03:00 [Information] Request finished in 26205.0681ms 500 text/html; charset=utf-8
+2018-10-24 22:42:10.779 -03:00 [Information] User profile is available. Using '"C:\Users\filip\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-10-24 22:42:11.575 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/  
+2018-10-24 22:42:11.575 -03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:58057/  0
+2018-10-24 22:42:11.600 -03:00 [Information] Request finished in 30.0643ms 200 
+2018-10-24 22:42:11.694 -03:00 [Information] Request finished in 125.2154ms 404 
+2018-10-24 22:42:51.077 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:42:51.534 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:43:31.340 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 40201.2078ms
+2018-10-24 22:43:31.342 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByteArray(Byte[] buff, Int32 offset, Int32 len, Int32& totalRead)
+   at System.Data.SqlClient.TdsParser.TrySkipPlpValue(UInt64 cb, TdsParserStateObject stateObj, UInt64& totalBytesSkipped)
+   at System.Data.SqlClient.TdsParser.TrySkipValue(SqlMetaDataPriv md, Int32 columnOrdinal, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TrySkipRow(_SqlMetaDataSet columns, Int32 startCol, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryCloseInternal(Boolean closeReader)
+   at System.Data.SqlClient.SqlDataReader.Close()
+   at System.Data.SqlClient.SqlDataReader.Dispose(Boolean disposing)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Dispose()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.Dispose()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.Dispose()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:dc790cbc-d91c-483a-9a3d-8207cecafb33
+Error Number:-2,State:0,Class:11
+2018-10-24 22:43:31.538 -03:00 [Information] Request finished in 40461.494ms 500 text/html; charset=utf-8
+2018-10-24 22:46:16.900 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:58057/api/faturamento  
+2018-10-24 22:46:16.960 -03:00 [Information] Executing action method "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" with arguments (null) - ModelState is Valid
+2018-10-24 22:46:49.876 -03:00 [Information] Executed action "ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal (ISEntrega.Core.RoboAPI)" in 32976.158ms
+2018-10-24 22:46:49.877 -03:00 [Error] An unhandled exception has occurred while executing the request
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryCloseInternal(Boolean closeReader)
+   at System.Data.SqlClient.SqlDataReader.Close()
+   at System.Data.SqlClient.SqlDataReader.Dispose(Boolean disposing)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Dispose()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.Dispose()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.Dispose()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Infrastructure.EntityFrameworkDataAccess.FaturamentoRepository.<ListaMatrizes>d__3.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Infrastructure\EntityFrameworkDataAccess\FaturamentoRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.Application.Commands.Faturamento.FaturamentoService.<Handle>d__4.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.Application\Commands\Faturamento\FaturamentoService.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.<ProcessaMensal>d__2.MoveNext() in C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\UseCases\ProcessaFaturamento\FaturamentoController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:b864c19a-a1e2-4171-87e3-02d181056619
+Error Number:-2,State:0,Class:11
+2018-10-24 22:46:49.985 -03:00 [Information] Request finished in 33085.0979ms 500 text/html; charset=utf-8
