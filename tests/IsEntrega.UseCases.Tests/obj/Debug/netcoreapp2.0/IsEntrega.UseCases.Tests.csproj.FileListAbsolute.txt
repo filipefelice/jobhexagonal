@@ -1,0 +1,14 @@
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\obj\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.csprojResolveAssemblyReference.cache
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\obj\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.csproj.CoreCompileInputs.cache
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\obj\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.AssemblyInfoInputs.cache
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\obj\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.AssemblyInfo.cs
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.deps.json
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.runtimeconfig.json
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.runtimeconfig.dev.json
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.dll
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\bin\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.pdb
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\obj\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.dll
+C:\Users\terc-filipe\source\repos\jobhexagonal\tests\IsEntrega.UseCases.Tests\obj\Debug\netcoreapp2.0\IsEntrega.UseCases.Tests.pdb

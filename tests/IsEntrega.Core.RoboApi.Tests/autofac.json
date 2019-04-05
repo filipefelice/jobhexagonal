@@ -1,0 +1,18 @@
+﻿{
+  "defaultAssembly": "IsEntrega.Infrastructure",
+  "modules": [
+    {
+      "type": "IsEntrega.Infrastructure.Modules.WebApiModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "IsEntrega.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "IsEntrega.Infrastructure.InMemoryDataAccess.Module"
+    }
+  ]
+}

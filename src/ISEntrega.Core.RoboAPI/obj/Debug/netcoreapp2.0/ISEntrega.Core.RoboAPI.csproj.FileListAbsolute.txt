@@ -61,3 +61,24 @@ C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Deb
 C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CopyComplete
 C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
 C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.deps.json
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.json
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.runtimeconfig.dev.json
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.xml
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csprojResolveAssemblyReference.cache
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CoreCompileInputs.cache
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfoInputs.cache
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.AssemblyInfo.cs
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.csproj.CopyComplete
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.RoboAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.RoboAPI.pdb

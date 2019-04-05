@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ISEntrega.Core.RoboAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ISEntrega.Core.RoboAPI.UseCases.CloseAccount.FaturamentoController.ProcessaMensal">
+            <summary>
+            Processa faturamento mensal
+            </summary>
+        </member>
+    </members>
+</doc>

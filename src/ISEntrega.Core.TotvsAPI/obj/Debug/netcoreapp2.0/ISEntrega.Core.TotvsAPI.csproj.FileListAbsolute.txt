@@ -61,3 +61,24 @@ C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\De
 C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CopyComplete
 C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
 C:\Users\filip\source\repos\IS Logistica Core\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.deps.json
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.json
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.runtimeconfig.dev.json
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.xml
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Application.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Infrastructure.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\bin\Debug\netcoreapp2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csprojResolveAssemblyReference.cache
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CoreCompileInputs.cache
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfoInputs.cache
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.AssemblyInfo.cs
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.csproj.CopyComplete
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.dll
+C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.TotvsAPI\obj\Debug\netcoreapp2.0\ISEntrega.Core.TotvsAPI.pdb
