@@ -1703,10 +1703,11 @@
   },
   "libraries": {
     "Microsoft.CodeCoverage/1.0.3": {
-      "sha512": "5KfX12XPfvBomjrZv9nCBfQ6lhZdroVxXvGnY6MqzG83bjqdq6SQ3xxJFdPgHv6oli83M9oNhZlynYehjmboUg==",
+      "sha512": "CmE+u43TKfA4dLkle2NwArwZ9qAvPDC/8jzTDGIxdAI6+5lU8JKm9wRF8YICz5RMtLe+jzMmPm0/r1Awo6zoiQ==",
       "type": "package",
       "path": "microsoft.codecoverage/1.0.3",
       "files": [
+        ".signature.p7s",
         "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "microsoft.codecoverage.1.0.3.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
@@ -2153,7 +2154,7 @@
       ]
     },
     "Microsoft.TestPlatform.ObjectModel/15.5.0": {
-      "sha512": "GAIcZdVBkSTr1lc0DJIgKt6nd3T1TJHzxt81uivX41daBURnf6k+M1V1bz3IhapLdwjuJJ1dGKCkoZPEwthpew==",
+      "sha512": "dBbQtvOYK96EebwC3uv3E1zxFY1XlEPyOIY7P/8cVmCHhIWo9n+gsIcUAnwncu8nUj1I7t8HulgY3GjA0AtYDA==",
       "type": "package",
       "path": "microsoft.testplatform.objectmodel/15.5.0",
       "files": [
@@ -2561,13 +2562,10 @@
       ]
     },
     "Newtonsoft.Json/9.0.1": {
-      "sha512": "2okXpTRwUcgQb06put5LwwCjtgoFo74zkPksjcvOpnIjx7TagGW5IoBCAA4luZx1+tfiIhoNqoiI7Y7zwWGyKA==",
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "type": "package",
       "path": "newtonsoft.json/9.0.1",
       "files": [
-        ".signature.p7s",
-        "Newtonsoft.Json.9.0.1.nupkg.sha512",
-        "Newtonsoft.Json.nuspec",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -2582,6 +2580,8 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
     },
@@ -5759,27 +5759,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\terc-filipe\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\filip\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\terc-filipe\\source\\repos\\jobhexagonal\\tests\\IsEntrega.Core.Domain.Tests\\IsEntrega.Core.Domain.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\tests\\IsEntrega.Core.Domain.Tests\\IsEntrega.Core.Domain.Tests.csproj",
       "projectName": "IsEntrega.Core.Domain.Tests",
-      "projectPath": "C:\\Users\\terc-filipe\\source\\repos\\jobhexagonal\\tests\\IsEntrega.Core.Domain.Tests\\IsEntrega.Core.Domain.Tests.csproj",
-      "packagesPath": "C:\\Users\\terc-filipe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\terc-filipe\\source\\repos\\jobhexagonal\\tests\\IsEntrega.Core.Domain.Tests\\obj\\",
+      "projectPath": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\tests\\IsEntrega.Core.Domain.Tests\\IsEntrega.Core.Domain.Tests.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\tests\\IsEntrega.Core.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\terc-filipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -5791,8 +5788,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\terc-filipe\\source\\repos\\jobhexagonal\\src\\IsEntrega.Core.Domain\\IsEntrega.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\terc-filipe\\source\\repos\\jobhexagonal\\src\\IsEntrega.Core.Domain\\IsEntrega.Core.Domain.csproj"
+            "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\IsEntrega.Core.Domain\\IsEntrega.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\IsEntrega.Core.Domain\\IsEntrega.Core.Domain.csproj"
             }
           }
         }

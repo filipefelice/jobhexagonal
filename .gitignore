@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ISEntrega.Core
+/src/ISEntrega.Core.Application/obj
+/src/ISEntrega.Core.Domain/obj
+/src/ISEntrega.Core.Domain.Shared/obj
+/src/ISEntrega.Core.Infrastructure/obj

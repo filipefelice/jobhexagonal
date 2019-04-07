@@ -12,3 +12,17 @@ C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\ob
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.csproj.CopyComplete
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.dll
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\bin\Debug\netstandard2.0\ISEntrega.Core.Application.deps.json
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\bin\Debug\netstandard2.0\ISEntrega.Core.Application.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\bin\Debug\netstandard2.0\ISEntrega.Core.Application.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.csprojAssemblyReference.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.AssemblyInfoInputs.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.AssemblyInfo.cs
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.csproj.CopyComplete
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Application\obj\Debug\netstandard2.0\ISEntrega.Core.Application.pdb

@@ -390,7 +390,7 @@
           "lib/netstandard1.5/MongoDB.Driver.Core.dll": {}
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -1874,10 +1874,11 @@
       ]
     },
     "AutoMapper/6.2.2": {
-      "sha512": "eGKcnJdoF5rYMWPUaSPtlWdvua9xw4hnQN5kM/X4AXLGKghrtPIaMv+RYoA3sj0kyZ3X6wZ1Qj67F+u0pCCPaw==",
+      "sha512": "Gmj+Cp6LN2b6pTffuh0cXY1U662EzQJttSS0QRyleTpVz7IXtddPLUBFaK9gKfesdH0vkOvGv9J7QmqgY/79kA==",
       "type": "package",
       "path": "automapper/6.2.2",
       "files": [
+        ".signature.p7s",
         "automapper.6.2.2.nupkg.sha512",
         "automapper.nuspec",
         "lib/net40/AutoMapper.dll",
@@ -2026,7 +2027,7 @@
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.1.0-preview1-final": {
-      "sha512": "7HMibHaMU85g373lgOGZKws1Plu3v1DL12XxpNCbzBDwAIoO9HlsL1S1RnCHWRfAA13HQnRDxIVARTO47IeNgg==",
+      "sha512": "JWJjfTzziENyEk6RtVEZnaUdCOGwQBdPqBEaC9ZvakuZN+2dCeOdgA0pZPhA3I9tt/qAkzCWCww3MB9z3SjySA==",
       "type": "package",
       "path": "microsoft.extensions.caching.abstractions/2.1.0-preview1-final",
       "files": [
@@ -2038,7 +2039,7 @@
       ]
     },
     "Microsoft.Extensions.Caching.Memory/2.1.0-preview1-final": {
-      "sha512": "USk8GIhFlQlfAP3AAoSa9Ybg1HbnEeHDMKu39mb0xqCZL8TgNcvo8r3U/ylxMlo/wqRI7nUExSDmFNtfgYHatQ==",
+      "sha512": "mWK3oSo0LXSGFeJhkOd5JGwJj6/KoLjStm4S5GV9wHL8JY/tkD5yG2jQhXzKZ2/wsSb37q/SlO3oMbYnHnAYmA==",
       "type": "package",
       "path": "microsoft.extensions.caching.memory/2.1.0-preview1-final",
       "files": [
@@ -2050,7 +2051,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration/2.1.0-preview1-final": {
-      "sha512": "NMPi6rLMym9j/7uO4z9RY7EC9/7MCZsFBP3Iw06Isw87cK1NOBwXZqmA5PiaKzTGR98X3lPfym6r4FsMgug6Aw==",
+      "sha512": "1CzBBMliqxKFOhrXW9UwkOrKz4W/ib2OmzFU48vuxap5tRpwOwWAeXaO4b6ZusnXI7E/mqcwL1GavQdOCvZFmQ==",
       "type": "package",
       "path": "microsoft.extensions.configuration/2.1.0-preview1-final",
       "files": [
@@ -2062,7 +2063,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.1.0-preview1-final": {
-      "sha512": "Oq0HojqG4FlDztbQmcawvoEkN+2REUA4nWduJkLgebJXzhzZ9F5VX1nFin+mXbXNa+mKpScsJkSwRG3tPeoXLQ==",
+      "sha512": "NCaJca0mev4ZvfHiyXSe+OdZU89agqwxu+RYdRTXvA0XoVaO3eVHobc9PRE8rVFg5a3uIioydB8gaqnWxjkHuQ==",
       "type": "package",
       "path": "microsoft.extensions.configuration.abstractions/2.1.0-preview1-final",
       "files": [
@@ -2086,7 +2087,7 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection/2.1.0-preview1-final": {
-      "sha512": "bE9C9yBorZ1SogDmtkMPjIAYxSfYe9N+d+CsWpu8GGF+mYb0dVuuojFsUhMMx+4eiOhGqLvyVedOoElHzEibog==",
+      "sha512": "bg4v578OfD9BGD0dM+R/gwho/vSGovTqS7pFkiO5EmiXV9i/UGUCAMxj594u4HKEsIfdlY2vDc4d3fHfvfLY4Q==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/2.1.0-preview1-final",
       "files": [
@@ -2098,7 +2099,7 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0-preview1-final": {
-      "sha512": "EFONCdmU/c5x9FoyibyQSp6BnuLPeOkm47KE4m5pyCpZ4UGo0paryIVlxwFXr2FTT+TZb/jZULmRjP+n/5Iyng==",
+      "sha512": "HKgxYvPTUthyU895e972hic9LiPuB9BfC9fi58v8ZOxuguTakcyAf5WBVkUw2BmI0PTkVHltOD/eAkzwk8tuMA==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0-preview1-final",
       "files": [
@@ -2110,7 +2111,7 @@
       ]
     },
     "Microsoft.Extensions.Logging/2.1.0-preview1-final": {
-      "sha512": "niRiLOR5Gt0XlSEkEEmsPG7p/t3OhX8QfwHpHkNcHHH5Wts/asJZrGRzscIgEE+89Mz+uox6r/D80419rJ+thQ==",
+      "sha512": "zCDEasl7bhlBg/ZnWXeoQWpXhujmcfnn6O0t3ReiWsltM3/2i1K9i4BHAtVBIgIf6DN/cDsFabfOq9T5VG6gDw==",
       "type": "package",
       "path": "microsoft.extensions.logging/2.1.0-preview1-final",
       "files": [
@@ -2122,7 +2123,7 @@
       ]
     },
     "Microsoft.Extensions.Logging.Abstractions/2.1.0-preview1-final": {
-      "sha512": "MMmBtZiNIAt5ZysfP1ZiPsTKmTnTHIhOmzRCgfIwhGbVMOomiNF+yKIZ2B74NmK+GeLSqSDuXNEHDjxsl5r8jw==",
+      "sha512": "8IacKRyWDQkoLP5hSgthL8wEJlkEs549Ha2sKO/3dP84g0fFuEkpGwpYLd3Yyvr8D4x2H9Lwi00yKYILa8DNVA==",
       "type": "package",
       "path": "microsoft.extensions.logging.abstractions/2.1.0-preview1-final",
       "files": [
@@ -2134,7 +2135,7 @@
       ]
     },
     "Microsoft.Extensions.Options/2.1.0-preview1-final": {
-      "sha512": "Y3g+lYcqeWEsVweD6mwjCaTQBaghO+Jc7mhBToIlraX/trIX9QOZKAVEaV/2enWPUUuyUys2WTMPPb9535dtzg==",
+      "sha512": "p4Tl5FAOxC+YOl4sxzMO4J0qBiNwek91tI4IUcRj41JtAK/C5gvLUC4Si5pM/YisTtxO+r2fgrr7Gw57WN4YOQ==",
       "type": "package",
       "path": "microsoft.extensions.options/2.1.0-preview1-final",
       "files": [
@@ -2146,7 +2147,7 @@
       ]
     },
     "Microsoft.Extensions.Primitives/2.1.0-preview1-final": {
-      "sha512": "TQ2Z3qa2rF/QUZPY+Vvu6PHNh080RiTmv43sMS6jhm6ETFtHO4k7gPhL2jhfQtfc7McsFb+669ta5r1kdYsNRw==",
+      "sha512": "NwyTMJUdFQfp0NjCbE30610A9rS5DHsQ4srOzowVKJnxU8BZAWSCqOlQriylqfjnZLfvYss2vHHaC1CBieAjDQ==",
       "type": "package",
       "path": "microsoft.extensions.primitives/2.1.0-preview1-final",
       "files": [
@@ -2220,7 +2221,7 @@
       ]
     },
     "Microsoft.Win32.Registry/4.5.0-preview1-26216-02": {
-      "sha512": "6IZ06CjUTTx2oOHysqRw7OUpZbPcjcbFI8gqJ4E5iwp6HR/TRs/nY4+qVzfatRJnjvezqikfiU6ylhxi6f/RHg==",
+      "sha512": "xo3NpHWhXKSxTQ+bHL/qaXL9IKOrpneCDfmTWyNcXwzNVFgx6I/8rsIrsN+5fU189AqDq4/hs8/kf/gOmqtvBA==",
       "type": "package",
       "path": "microsoft.win32.registry/4.5.0-preview1-26216-02",
       "files": [
@@ -2303,16 +2304,13 @@
         "mongodb.driver.core.nuspec"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
-        "NETStandard.Library.2.0.1.nupkg.sha512",
-        "NETStandard.Library.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -2428,7 +2426,9 @@
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._"
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0-alpha-002": {
@@ -2489,10 +2489,11 @@
       ]
     },
     "runtime.native.System.Net.Security/4.0.1": {
-      "sha512": "Az6Ff6rZFb8nYGAaejFR6jr8ktt9f3e1Q/yKdw0pwHNTLaO/1eCAC9vzBoR9YAb0QeZD6fZXl1A9tRB5stpzXA==",
+      "sha512": "OpQmF7Ol4t3BVl+x2SURhymksME8f9Ke4uKWAVKPZhGZn6g5bBKvaSllV4nmNKgNQSIhM1x4IOtgc6/32H1OUg==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.0.1",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2700,7 +2701,7 @@
       ]
     },
     "System.Collections.Immutable/1.5.0-preview1-26216-02": {
-      "sha512": "SuDYAMezY9vOxsmoHEzCqIpx2/uQ0hzX4ReVOyZApXExcJi2VOXMLcZehx21L5MxtwoxY1kit4s4ErfmtFybNQ==",
+      "sha512": "jvTiKPqIGYqQllGPh8YgApQJQP3b0Yuao+opXV3ZWk0sBeehD6YTXVAhUhyTGKxIT0iV8Vq7m15jlhuz5bjeUw==",
       "type": "package",
       "path": "system.collections.immutable/1.5.0-preview1-26216-02",
       "files": [
@@ -2853,7 +2854,7 @@
       ]
     },
     "System.ComponentModel.Annotations/4.5.0-preview1-26216-02": {
-      "sha512": "M+wLGGl6Mh/7xOprA3oqq9NdGPAQv63bbiJ64HPztwVHtsggPWVxvjbNfPd3fGumnbKpoOKJjLWiTVKPbtaNUA==",
+      "sha512": "yuH3JG8DV7oa1xOZ+Rvvx3nwN7tUjiSOYiVH8167al4ZHZL35VqROmiTIpaLyFWX5uh/E1WWDeeyU/PzfQjCtg==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.5.0-preview1-26216-02",
       "files": [
@@ -3165,7 +3166,7 @@
       ]
     },
     "System.Diagnostics.DiagnosticSource/4.5.0-preview1-26216-02": {
-      "sha512": "8xL2XEDVlXo1xzvpPY6KJYTdXCRXigikhphNMQH3zDWCXhzsFWpBVA+oClZzbH73jM3+rK7XT4uNZ9e89bnXAA==",
+      "sha512": "hBT6oTBgDyXZPsjexVSKHLL+X2kYh7vVVtCwDI/GPHYcnPc/Dc2VVUeFEX0JjF5PWus14OAbpcLpQ+rT0vc8Dg==",
       "type": "package",
       "path": "system.diagnostics.diagnosticsource/4.5.0-preview1-26216-02",
       "files": [
@@ -3581,13 +3582,10 @@
       ]
     },
     "System.Interactive.Async/3.1.1": {
-      "sha512": "x9y2omkjEudKbIVuhUzeWw7ZlouEzpk4W98woCEq1lq9gJxERBKRKDTHF5JPEws9E0f4/Uei/2vLxEy1IrfmMg==",
+      "sha512": "hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
       "type": "package",
       "path": "system.interactive.async/3.1.1",
       "files": [
-        ".signature.p7s",
-        "System.Interactive.Async.3.1.1.nupkg.sha512",
-        "System.Interactive.Async.nuspec",
         "lib/net45/System.Interactive.Async.dll",
         "lib/net45/System.Interactive.Async.xml",
         "lib/net46/System.Interactive.Async.dll",
@@ -3595,7 +3593,9 @@
         "lib/netstandard1.0/System.Interactive.Async.dll",
         "lib/netstandard1.0/System.Interactive.Async.xml",
         "lib/netstandard1.3/System.Interactive.Async.dll",
-        "lib/netstandard1.3/System.Interactive.Async.xml"
+        "lib/netstandard1.3/System.Interactive.Async.xml",
+        "system.interactive.async.3.1.1.nupkg.sha512",
+        "system.interactive.async.nuspec"
       ]
     },
     "System.IO/4.3.0": {
@@ -3903,10 +3903,11 @@
       ]
     },
     "System.Linq.Queryable/4.3.0": {
-      "sha512": "In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
+      "sha512": "XeuhzDnMp4nqUkeW4c5ILsKQk4+15RVaHm8LQdKWiGqIAgC12y2vuJUkkNhqjqi3K6LNmV9tzEfAZrarwWMsKA==",
       "type": "package",
       "path": "system.linq.queryable/4.3.0",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -4183,10 +4184,11 @@
       ]
     },
     "System.Net.Security/4.0.0": {
-      "sha512": "uM1JaYJciCc2w7efD6du0EpQ1n5ZQqE6/P43/aI4H5E59qvP+wt3l70KIUF/Ha7NaeXGoGNFPVO0MB80pVHk2g==",
+      "sha512": "iavC4j5XrRyX3aXbn23jHHF0NTxw9F+2vi3a94VY4BgfrYm5VQBh8OzU1TkNahTSlcKzjGhEc7ZfTfe4b62J6Q==",
       "type": "package",
       "path": "system.net.security/4.0.0",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4259,7 +4261,7 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0-preview1-26216-02": {
-      "sha512": "oW45oX6Vn5YmtakFD/WeucDxMoJq+LQ2wHFF2VnY1b7xKIg/LsuCuV4rTpkRvBSEj3gOV+YsjBdwtkOAvD/nZQ==",
+      "sha512": "MpBprHbADinvvVAbp2GgyB/WZAai/xU/w9b4JQD+IEbEbbkugUGNv6i8mXYObMv0kyKwtHGlSRi67W0C4GEcnw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0-preview1-26216-02",
       "files": [
@@ -4676,10 +4678,11 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.4.0": {
-      "sha512": "dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "sha512": "JRxOAH6by+wn1gNnZc9jf2HbO/szhMJuLY2w44nEW77354WntXlFzWSVkx6280Uvcl3URZ/At+444vjX0/X1Aw==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.4.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -4883,7 +4886,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.0-preview1-26216-02": {
-      "sha512": "LfO3wRC8VAaSHU/8RDFjbI3/XA6Khp+XusMuXiOhoF9grto2KF+o3YGXMEDBIMHjRbGK68nla44qHkxt7G98iA==",
+      "sha512": "104Gf4baT7C6+GbpCltUV9tITlMtMPFAdYf96BD2W1Z0XMsM3S92SSdlnxOKgd3Kc8VWKOHBhJ3BqiHGa12OdA==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.0-preview1-26216-02",
       "files": [
@@ -5311,10 +5314,11 @@
       ]
     },
     "System.Security.Claims/4.0.1": {
-      "sha512": "4Jlp0OgJLS/Voj1kyFP6MJlIYp3crgfH8kNQk2p7+4JYfc1aAmh9PZyAMMbDhuoolGNtux9HqSOazsioRiDvCw==",
+      "sha512": "Sktb8eezUnTWT7qmnpNWBn23ae9HB2ALUCMzH9CnOgNK7G5Ic1N8j6mWpDJRecyMbFLHAoNBzyRTAboTOeR0aw==",
       "type": "package",
       "path": "system.security.claims/4.0.1",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5633,7 +5637,7 @@
       ]
     },
     "System.Security.Principal.Windows/4.5.0-preview1-26216-02": {
-      "sha512": "4ZRnjQ2cCkTsyvgZtvLdXoZSnVoZ+E8NuQ4CtrLLvwFweBudQ9sWCpp6HdgtF5EtpabKYUb+cLjygy0nsl19oQ==",
+      "sha512": "KNipmt/hWiZu+RvmEqk4+9tUUDkBV9Tm/0aJK9FyhovLUO903eCcgU3vkuzgXy4narH6z06nsGkRrnekXnHg4g==",
       "type": "package",
       "path": "system.security.principal.windows/4.5.0-preview1-26216-02",
       "files": [
@@ -5781,7 +5785,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.5.0-preview1-26216-02": {
-      "sha512": "/yWKbm5DGB7hIW9AvBCw+fSJ5ibOxLxb0j8wZFV7SSw53iM2LcM1wsCiO34JHEZSoLwb6R4V727inybfVDbiOg==",
+      "sha512": "m8KbmXA9hGL87V3144k6TMW70h0i7FZpURsE8oghyc95iQRb/ErYIQWLPssbzw/3vImMZ7ZnSWWE+TqCHXS9lQ==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.5.0-preview1-26216-02",
       "files": [
@@ -6045,10 +6049,11 @@
       ]
     },
     "System.Threading.Overlapped/4.3.0": {
-      "sha512": "m3HQ2dPiX/DSTpf+yJt8B0c+SRvzfqAJKx+QDWi+VLhz8svLT23MVjEOHPF/KiSLeArKU/iHescrbLd3yVgyNg==",
+      "sha512": "JpukcZA7kre2gQ7GrhtvZu1xv/LVEG5HV9AajQ3XV7l36T6ICalw/llfkBHeK/eqo8UWpMNqkWGCzzlSuqE6pg==",
       "type": "package",
       "path": "system.threading.overlapped/4.3.0",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Threading.Overlapped.dll",
@@ -6239,31 +6244,28 @@
       "ISEntrega.Core.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.0-preview1-final",
       "MongoDB.Driver >= 2.7.0",
-      "NETStandard.Library >= 2.0.1"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\terc-filipe\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\filip\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\terc-filipe\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Infrastructure\\ISEntrega.Core.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Infrastructure\\ISEntrega.Core.Infrastructure.csproj",
       "projectName": "ISEntrega.Core.Infrastructure",
-      "projectPath": "C:\\Users\\terc-filipe\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Infrastructure\\ISEntrega.Core.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\terc-filipe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\terc-filipe\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Infrastructure\\ISEntrega.Core.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\terc-filipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -6275,11 +6277,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\terc-filipe\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Application\\ISEntrega.Core.Application.csproj": {
-              "projectPath": "C:\\Users\\terc-filipe\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Application\\ISEntrega.Core.Application.csproj"
+            "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Application\\ISEntrega.Core.Application.csproj": {
+              "projectPath": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Application\\ISEntrega.Core.Application.csproj"
             },
-            "C:\\Users\\terc-filipe\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Domain\\ISEntrega.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\terc-filipe\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Domain\\ISEntrega.Core.Domain.csproj"
+            "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Domain\\ISEntrega.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\filip\\Source\\Repos\\jobhexagonal\\src\\ISEntrega.Core.Domain\\ISEntrega.Core.Domain.csproj"
             }
           }
         }
@@ -6319,7 +6321,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           }
         },

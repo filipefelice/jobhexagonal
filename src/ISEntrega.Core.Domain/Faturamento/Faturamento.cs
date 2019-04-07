@@ -170,6 +170,7 @@
 
         public bool IsValid()
         {
+            // Implementar fluent validation
             throw new NotImplementedException();
         }
     }

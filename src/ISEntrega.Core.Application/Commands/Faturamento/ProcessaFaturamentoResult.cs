@@ -2,10 +2,12 @@
 {
     using System;
     public class ProcessaFaturamentoResult
-    {        
+    {
+        public bool FaturamentoOk { get; set; }
+
         public ProcessaFaturamentoResult()
         {
-
+            
         }        
     }
 }

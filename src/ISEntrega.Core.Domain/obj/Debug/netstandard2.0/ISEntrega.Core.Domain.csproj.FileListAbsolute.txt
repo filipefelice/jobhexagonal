@@ -10,3 +10,15 @@ C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Deb
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.csproj.CopyComplete
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.dll
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.deps.json
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.csprojAssemblyReference.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.AssemblyInfo.cs
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.csproj.CopyComplete
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.pdb

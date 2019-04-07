@@ -41,6 +41,7 @@ namespace ISEntrega.Core.Domain.Faturamento
 
         public bool IsValid()
         {
+            // Implementar fluent validation
             throw new NotImplementedException();
         }
     }

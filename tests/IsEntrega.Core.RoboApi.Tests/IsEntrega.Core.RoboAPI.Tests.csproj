@@ -32,8 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IsEntrega.Core.RoboApi.Tests\IsEntrega.Core.RoboApi.csproj" />
-    <ProjectReference Include="..\..\src\ISEntrega.Core.RoboAPI\ISEntrega.Core.RoboAPI.csproj" />
+    <ProjectReference Include="..\..\src\IsEntrega.Core.RoboApi\IsEntrega.Core.RoboApi.csproj" />
   </ItemGroup>
 
 

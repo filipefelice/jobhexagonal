@@ -37,18 +37,13 @@
                         {
                             var faturamento = new Faturamento(matriz, ponto);
 
-                            var rateio = faturamento.CalculaRateioPonto();
-
-                            //if (ponto.InformacaoCobranca == null)
-                            //    throw new PontoSemInformacaoCobrancaException($"Ponto {ponto.NomeFantasia} sem informação de cobrança");                            
-
-                            //var informacaoCobranca = await _faturamentoReadOnlyRepository.ObtemInformacaoCobranca(ponto.InformacaoCobranca.Value);                            
+                            var rateio = faturamento.CalculaRateioPonto();                            
                         }                        
                     }
                 }
             }                        
             
-            var result = resultConverter.Map<ProcessaFaturamentoResult>(new object { });
+            var result = resultConverter.Map<ProcessaFaturamentoResult>(new { FaturamentoOk = true });
 
             return result;
         }

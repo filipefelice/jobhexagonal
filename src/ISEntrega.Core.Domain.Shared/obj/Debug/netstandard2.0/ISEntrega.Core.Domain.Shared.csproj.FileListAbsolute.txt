@@ -6,3 +6,12 @@ C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.AssemblyInfo.cs
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.dll
 C:\Users\terc-filipe\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.deps.json
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\bin\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.AssemblyInfoInputs.cache
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.AssemblyInfo.cs
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.dll
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.pdb
+C:\Users\filip\Source\Repos\jobhexagonal\src\ISEntrega.Core.Domain.Shared\obj\Debug\netstandard2.0\ISEntrega.Core.Domain.Shared.csprojAssemblyReference.cache

@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IsEntrega.Application\IsEntrega.Application.csproj" />
-    <ProjectReference Include="..\..\src\IsEntrega.Domain\IsEntrega.Domain.csproj" />
-    <ProjectReference Include="..\..\src\IsEntrega.Infrastructure\IsEntrega.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\IsEntrega.Core.Application\IsEntrega.Core.Application.csproj" />
+    <ProjectReference Include="..\..\src\IsEntrega.Core.Domain\IsEntrega.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\src\IsEntrega.Core.Infrastructure\IsEntrega.Core.Infrastructure.csproj" />
   </ItemGroup>
 
 
